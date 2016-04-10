@@ -1,9 +1,4 @@
-// Describe your query
-// at the start
-// in comments.
+//Retreives the candidates that ran in the Offaly constituency.
 
-
-MATCH
-	(n)
-RETURN
-	n;
+MATCH (constituency {constituency: 'Offaly' })<-[RUNS_IN]-(candidate) 
+RETURN candidate;
