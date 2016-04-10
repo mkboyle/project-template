@@ -10,9 +10,9 @@ To create the database:
 * I used LOAD CSV to import my neo4jproject.csv file into the query.
 * I used CREATE to create nodes with the candidates name and a label for there gender.
 * I used MERGE to avoid creating duplicate party and constituency nodes.
-*The party node is just the 17 party names.
-*There are 40 constituency nodes wach with a label of the number of seats available.
-*I then created a relationship between the candidate and the party they are a member of and between the candidtate and the constituency they run in. 
+* The party node is just the 17 party names.
+* There are 40 constituency nodes wach with a label of the number of seats available.
+* I then created a relationship between the candidate and the party they are a member of and between the candidtate and the constituency they run in. 
 
 
 ## Queries
