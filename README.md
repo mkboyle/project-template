@@ -12,7 +12,7 @@ To create the database:
 * I used MERGE to avoid creating duplicate party and constituency nodes.
 * The party node is just the 17 party names.
 * There are 40 constituency nodes wach with a label of the number of seats available.
-* I then created a relationship between the candidate and the party they are a member of and between the candidtate and the constituency they run in. 
+* I then created a relationship between the candidate and the party they are a member of and between the candidate and the constituency they run in. 
 
 
 ## Queries
