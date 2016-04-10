@@ -1,9 +1,4 @@
-// Describe your query
-// at the start
-// in comments.
+// Retreives the party that Conor Mac Liam is a member of.
 
-
-MATCH
-	(n)
-RETURN
-	n;
+MATCH (candidate {candidate: 'Conor Mac Liam' })-[:MEMBER_OF]->(party) 
+RETURN party;
