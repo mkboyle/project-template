@@ -16,32 +16,25 @@ To create the database:
 
 
 ## Queries
-Summarise your three queries here.
-Then explain them one by one in the following sections.
+I created simple queries to get information about candidtates, parties and Constituencies
 
-#### Query one title
+#### Query one 
 This query retreives the candidates that ran in the Offaly constituency.
 ```cypher
 MATCH (constituency {constituency: 'Offaly' })<-[RUNS_IN]-(candidate) 
 RETURN candidate;
 ```
 
-#### Query two title
-This query retreives the Bacon number of an actor...
+#### Query two 
+This query retreives all the female candidates that ran in the election.
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (candidate {gender: 'Female' }) RETURN candidate;
 ```
 
-#### Query three title
-This query retreives the Bacon number of an actor...
+#### Query three 
+This query retreives the party that Conor Mac Liam is a member of.
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (candidate {candidate: 'Conor Mac Liam' })-[:MEMBER_OF]->(party) RETURN party;
 ```
 
 ## References
