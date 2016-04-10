@@ -48,6 +48,6 @@ RETURN
 
 ## References
 1. [Neo4J website](http://neo4j.com/), the website of the Neo4j database.
-2. (http://neo4j.com/docs/stable/), Website used to help create queuries.
-3. (http://irishpoliticalmaps.blogspot.ie/), Gathered some Constituency and candidate information here.
-4. https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland, , Gathered some Constituency and candidate information here.
+2. http://neo4j.com/docs/stable/, Website used to help create queuries.
+3. http://irishpoliticalmaps.blogspot.ie/, Gathered some Constituency and candidate information here.
+4. https://en.wikipedia.org/wiki/Parliamentary_constituencies_in_the_Republic_of_Ireland, Gathered some Constituency and candidate information here.
