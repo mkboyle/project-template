@@ -1,9 +1,3 @@
-// Describe your query
-// at the start
-// in comments.
+//Retreives all the female candidates that ran in the election.
 
-
-MATCH
-	(n)
-RETURN
-	n;
+MATCH (candidate {gender: 'Female' }) RETURN candidate;
