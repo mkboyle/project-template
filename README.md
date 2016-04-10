@@ -20,12 +20,10 @@ Summarise your three queries here.
 Then explain them one by one in the following sections.
 
 #### Query one title
-This query retreives the Bacon number of an actor...
+This query retreives the candidates that ran in the Offaly constituency.
 ```cypher
-MATCH
-	(Bacon)
-RETURN
-	Bacon;
+MATCH (constituency {constituency: 'Offaly' })<-[RUNS_IN]-(candidate) 
+RETURN candidate;
 ```
 
 #### Query two title
